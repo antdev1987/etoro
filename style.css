@@ -23,6 +23,10 @@ body {
 
 /* utilities */
 
+.mt-5 {
+  margin-top: 5rem;
+}
+
 .containerA {
   max-width: 1200px;
   margin: 0 auto;
@@ -318,4 +322,64 @@ body {
   .trade .contentA {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+
+/* Codigo Footer */
+/* Container */
+.container-content {
+    max-width: 1090px;
+    margin: auto;
+}
+
+/* Font Weights */
+.fw-300 {
+    font-weight: 300;
+}
+
+/* Font Sizes */
+.fs-9 {
+    font-size: .9rem;
+}
+
+.fs-8 {
+    font-size: .8rem;
+}
+
+/* Colors */
+.light-grey-content {
+    color: rgba(255,255,255,.5);
+}
+.text-white-medium {
+    color: rgba(255, 255, 255, 0.815);
+}
+
+.links-color {
+    color: #3f9adc;
+}
+
+/* Backgrounds */
+.bg-light-grey {
+    background: #3d404a;
+    color: #F6F6F6;
+}
+
+/* Hover Links */
+.facebook-hover:hover {
+    color: #4267B2;
+}
+
+.instagram-hover:hover {
+    color: #bc2a8d;
+}
+
+.youtube-hover:hover {
+    color: #FF0000;
+}
+
+.twitter-hover:hover {
+    color: #1DA1F2;
+}
+
+.linkedin-hover:hover {
+    color: #0077b5;
 }
