@@ -89,7 +89,7 @@ body {
 }
 
 .box-benefitsA.hover:hover {
-    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
 }
 
 .box-benefitsA img {
@@ -97,7 +97,7 @@ body {
 }
 
 .box-benefitsA h2 {
-    color: #3a3d48;
+  color: #3a3d48;
 }
 
 .lineA {
@@ -182,11 +182,11 @@ body {
 }
 
 .confidenceA .contentA .info .list.list-none {
-    list-style: none;
+  list-style: none;
 }
 
-.confidenceA .contentA .info .list.list-circle li::marker{
-    color: #6aac0e;
+.confidenceA .contentA .info .list.list-circle li::marker {
+  color: #6aac0e;
 }
 
 .confidenceA .contentA img {
@@ -196,49 +196,126 @@ body {
 
 /* Trade */
 .trade {
-    text-align: center;
+  text-align: center;
 }
 
 .trade h2 {
-    font-size: 2.4rem;
+  font-size: 2.4rem;
 }
 
-.trade h2 span{
-    font-weight: 300;
+.trade h2 span {
+  font-weight: 300;
 }
 
 .trade h3 {
-    margin: 2rem 0;
+  margin: 2rem 0;
 }
 
 .trade .contentA {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 25rem);
-    grid-auto-rows: 20rem;
-    align-items: center;
-    justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 25rem);
+  grid-auto-rows: 20rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .trade .contentA .box-benefitsA img {
-    height: 7rem;
+  height: 7rem;
 }
 /* Trade */
 
 /* faq */
-.faq h2{
-    font-size: 2.4rem;
+.faq h2 {
+  font-size: 2.4rem;
 }
 
 .faq .contentA {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 
 .faq .accordion-button {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 /* faq */
 
 .contentA {
-    max-width: 800px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (min-width: 800px) {
+  .headerA {
+    display: flex;
+    align-items: center;
+    background: url(./images/demo-account-desktop-bg.jpg) no-repeat right center /
+      cover;
+    height: 60rem;
+  }
+
+  .headerA .contentA {
+    text-align: start;
+    width: 50%;
+    margin: 0 10%;
+  }
+
+  .headerA .contentA h2 {
+    font-size: 4rem;
+  }
+
+  .headerA .contentA h2 span,
+  .trade h2 span {
+    font-weight: 700;
+  }
+
+  .headerA .contentA h3 {
+    font-size: 2.8rem;
+  }
+
+  .benefitsA .contentA {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .benefitsA .contentA .box-benefitsA img,
+  .trade .contentA .box-benefitsA img {
+    height: 12.5rem;
+  }
+
+  .benefitsA .contentA .box-benefitsA h2 {
+    margin: 2rem 0;
+  }
+
+  .confidenceA .contentA {
+    display: flex;
+    overflow: hidden;
+  }
+
+  .confidenceA .contentA .info{
+      flex: 0 0 40%;
+  }
+
+
+  .confidenceA .contentA .info .box, .confidenceA .contentA .info .txt-center {
+    text-align: start;
+  }
+
+  
+
+  .lineA {
+    max-width: 1200px;
     margin: 0 auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+
+  .contentA {
+    max-width: 1200px;
+  }
+
+  .flex-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .trade .contentA {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
