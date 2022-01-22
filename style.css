@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+/* Font */
+
 /* Reset */
 *,
 *::after,
@@ -8,10 +11,234 @@
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
+  font-family: 'Open Sans', sans-serif;
 }
+
 /* Reset */
+
+/* utilities */
+
+.containerA {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.fw-300A {
+  font-weight: 300;
+}
+
+.fw-700A {
+  font-weight: 700;
+}
+
+.pY-3 {
+  padding: 3rem 0;
+}
+
+.bg-blackA,
+.btn-blackA {
+  background: #434f62;
+  color: #fff;
+}
+
+.btn-blackA:hover {
+  background: #2d3542;
+}
+
+.btn-greenA {
+  background: #6aac0e;
+  color: #fff;
+}
+
+.btn-greenA:hover {
+  background: #74c109;
+  color: white;
+}
+
+/* utilities */
+
+/* Components */
+
+.btnA {
+  border: none;
+  padding: 1rem 3rem;
+  border-radius: 4px;
+  font-weight: 600;
+  height: 5rem;
+  font-size: 1.8rem;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.box-benefitsA {
+  text-align: center;
+  padding: 0 2rem;
+  text-decoration: none;
+  padding: 3rem 0;
+}
+
+.box-benefitsA.hover:hover {
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+}
+
+.box-benefitsA img {
+  height: 11rem;
+}
+
+.box-benefitsA h2 {
+    color: #3a3d48;
+}
+
+.lineA {
+  padding: 0 2rem;
+  border-bottom: 1px solid #eaeaea;
+  margin: 10rem 0;
+  position: relative;
+}
+
+.lineA::after {
+  content: '';
+  position: absolute;
+  background: white;
+  border: 1px solid #eaeaea;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Components */
+
+/* HeaderA */
+
+.headerA {
+  background: url(/images/demo-account-mobile-bg.jpg) no-repeat center center /
+    cover;
+  height: 100vh;
+  color: white;
+}
+
+.headerA .contentA {
+  padding: 0 2rem;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.headerA .contentA h2 {
+  font-size: 3.2rem;
+}
+
+.headerA .containerA h2 span {
+  display: block;
+  font-weight: 300;
+}
+
+.headerA .contentA h3 {
+  font-size: 2.2rem;
+  margin: 3rem 0;
+}
+/* HeaderA */
+
+/* benefits */
+.benefitsA .contentA {
+  display: grid;
+  grid-template-columns: 30rem;
+  justify-content: center;
+  gap: 5rem;
+  padding-top: 5rem;
+}
+/* benefits */
+
+/* confidence */
+.confidenceA .contentA .info .box {
+  text-align: center;
+}
+
+.confidenceA .contentA .info .box h2 {
+  margin: 3rem 0;
+  font-size: 2.4rem;
+}
+
+.confidenceA .contentA .info .box h3 {
+  margin: 3rem 0;
+  font-size: 1.4rem;
+}
+
+.confidenceA .contentA .info .list {
+  font-weight: 300;
+}
+
+.confidenceA .contentA .info .list.list-none {
+    list-style: none;
+}
+
+.confidenceA .contentA .info .list.list-circle li::marker{
+    color: #6aac0e;
+}
+
+.confidenceA .contentA img {
+  width: 100%;
+}
+/* confidence */
+
+/* Trade */
+.trade {
+    text-align: center;
+}
+
+.trade h2 {
+    font-size: 2.4rem;
+}
+
+.trade h2 span{
+    font-weight: 300;
+}
+
+.trade h3 {
+    margin: 2rem 0;
+}
+
+.trade .contentA {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 25rem);
+    grid-auto-rows: 20rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.trade .contentA .box-benefitsA img {
+    height: 7rem;
+}
+/* Trade */
+
+/* faq */
+.faq h2{
+    font-size: 2.4rem;
+}
+
+.faq .contentA {
+    margin-top: 5rem;
+}
+
+.faq .accordion-button {
+    font-size: 1.8rem;
+}
+/* faq */
+
+.contentA {
+    max-width: 800px;
+    margin: 0 auto;
+}
