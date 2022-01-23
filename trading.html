@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <title>markets</title>
+</head>
+
+<body>
+
+  <!-- the menu begins here -->
+  <nav class="navbar navbar-expand-lg  navbar-light bg-light sticky-top ">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.svg" alt="" width="80" height="24" class="d-inline-block align-text-top">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Etoro</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item border-end border-2">
+              <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-search"></i></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Trading
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a class="dropdown-item py-2 fs-4 active" href="trading.html">Trade Markets on eToro</a></li>
+                <li><a class="dropdown-item py-2 fs-4" href="#">Trading Platform</a></li>
+                <li><a class="dropdown-item py-2 fs-4" href="index.html">Demo Account</a></li>
+                <!-- <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Investing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Top Markets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Company</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark ms-2" href="#">Log in</a>
+            </li>
+
+          </ul>
+          <form class="d-flex">
+            <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+            <button class="btn btn-success px-4 text-uppercase text-white fw-bold" type="submit">Sign
+              Up</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- the menu ends here -->
+
+  <!-- the header begins here -->
+  <div class="container-fluid market-etoro">
+
+    <div class="container-xxl">
+
+      <div class="row py-5 overflow-hidden">
+
+        <div class='col-lg-6 text-white text-center'>
+          <p class='text-uppercase'>Home / Trading / Markets</p>
+          <h2 class="display-4 fw-bold ">Trade and invest in top markets</h2>
+
+          <p class="fs-2">On eToro, you can invest in global financial markets and easily manage a variety of
+            assets in a
+            single portfolio.</p>
+
+
+          <div class="row mx-auto mx-lg-0 mt-4  g-0" style="max-width: 500px; ">
+
+            <div class="col-4 ">
+
+              <div style="height: 80px;">
+                <img src="img/stocks.svg" style="height:100%; width: 95%;" alt="">
+              </div>
+
+              <p class="fw-light fs-2 mb-0">Stocks</p>
+              <p class="fw-bold fs-1">2714</p>
+            </div>
+
+            <div class='col-4'>
+              <div class="w-100  border-primary" style="height: 80px;">
+                <img src="img/cryptocurrencies.svg" style="height:100%; width: 95%;" alt="">
+              </div>
+              <p class="fw-light fs-2 mb-0">Crypto</p>
+              <p class="fw-bold fs-1">45</p>
+            </div>
+
+            <div class='col-4'>
+              <div style="height: 80px;">
+                <img src="img/commodities.svg" style="height:100%; width: 95%;" alt="">
+              </div>
+
+              <div class="w-100  text-nowrap">
+
+                <p class="fw-light fs-2 mb-0  d-block">Commodities</p>
+                <p class="fw-bold fs-1">33</p>
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="row mx-auto mx-lg-0 mt-2 g-0" style="max-width: 500px; ">
+
+            <div class="col-4 ">
+
+              <div style="height: 80px;">
+                <img src="img/currencies.svg" style="height:100%; width: 95%;" alt="">
+              </div>
+
+              <p class="fw-light fs-5 mb-0">Currencies</p>
+              <p class="fw-bold fs-4">2714</p>
+            </div>
+
+            <div class='col-4 '>
+              <div class="w-100  border-primary" style="height: 80px;">
+                <img src="img/indices.svg" style="height:100%; width: 95%;" alt="">
+              </div>
+              <p class="fw-light fs-5 mb-0">Indices</p>
+              <p class="fw-bold fs-4">45</p>
+            </div>
+
+            <div class='col-4'>
+              <div style="height: 80px;">
+                <img src="img/etfs.svg" style="height:100%; width: 95%;" alt="">
+              </div>
+
+              <div class="w-100  text-nowrap">
+
+                <p class="fw-light fs-5 mb-0  d-block">ETFs</p>
+                <p class="fw-bold fs-4">33</p>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <!-- second flex -->
+        <div class="d-none d-lg-block col-lg-6 ">
+          <img class="img-fluid mx-auto" src="img/tradeMarketsv2.png" alt="">
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- the header ends here -->
+
+
+  <div class="container-xxl pt-5">
+
+    <!-- ######################################### -->
+    <!-- first section after the header -->
+    <div class="row mt-4">
+      <!-- first coloum -->
+      <div class="col-lg-6 text-center text-lg-start">
+        <h3 class="fw-bolder mb-0 fs-1">Invest in Stocks</h3>
+        <p class="fs-2 mt-0">with 0% commission</p>
+        <p class="">From technology to healthcare, New York to Hong Kong — with fractional shares, it’s easy to
+          fill your portfolio with a variety of leading stocks from the world’s top exchanges. Invest in
+          stocks without paying commission and without limits on trading volume.</p>
+
+        <button class="btnA btn-greenA px-4 py-2 mb-3 mt-3">
+          Start Investing in Stocks
+        </button>
+
+        <p>
+          Your capital is at risk. Other fees apply. eToro Service ARSN 637 489 466 promoted by eToro AUS
+          Capital Limited ACN 612 791 803 AFSL 491139. Capital at risk. See PDS. Zero commission does not
+          apply to short or leveraged positions. Zero commission means that no broker fee has been charged
+          when opening or closing the position. Limited stock exchanges only.
+        </p>
+
+      </div>
+      <!-- end of first coloum -->
+
+      <!-- second coloum -->
+      <div class="col-lg-6">
+
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+
+
+              <div class="card border-success w-75 mx-auto shadow-lg mb-4 bg-body rounded">
+                <!-- aqui va el contenido -->
+                <div class="card-header bg-transparent border-success">Header 1</div>
+                <div class="card-body text-success">
+                  <h5 class="card-title">Success card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up
+                    the bulk of the card's content.</p>
+                </div>
+                <div class="card-footer bg-transparent border-success">Footer</div>
+                <!--  -->
+              </div>
+
+
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+
+              <div class="card border-success w-75 mx-auto shadow-lg mb-4 bg-body rounded ">
+                <div class="card-header bg-transparent border-success">Header 2</div>
+                <div class="card-body text-success">
+                  <h5 class="card-title">Success card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up
+                    the bulk of the card's content.</p>
+                </div>
+                <div class="card-footer bg-transparent border-success">Footer</div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+
+              <div class="card border-success w-75 mx-auto shadow-lg mb-4 bg-body rounded">
+                <div class="card-header bg-transparent border-success">Header 3</div>
+                <div class="card-body text-success">
+                  <h5 class="card-title">Success card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up
+                    the bulk of the card's content.</p>
+                </div>
+                <div class="card-footer bg-transparent border-success">Footer</div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <a class="text-center mt-2 d-block text-decoration-none fs-5" href="#">See All Stocks</a>
+
+      </div>
+      <!-- end of second colum -->
+    </div>
+    <!-- end of the first section after the header -->
+
+
+    <!-- ###################################################33 -->
+    <!-- second section after the header -->
+    <div class="row mt-5 pt-5">
+
+      <!-- first coloum -->
+      <div class="col-lg-6 order-1 order-lg-0 ">
+
+        <!-- first card -->
+        <div
+          class="overflow-hidden d-flex p-2 justify-content-between w-75 mx-auto bg-white shadow-lg mb-4 bg-body rounded-3">
+
+          <div class="pt-3 d-flex">
+
+            <img src="img/bitcoin50x50.png" alt="" style="width: 60px; height:60px;">
+
+            <div class="ms-1 pt-1">
+              <p class="m-0 p-0">BTC</p>
+              <p class="m-0 p-0">Bitcoin</p>
+
+            </div>
+
+          </div>
+
+          <div class="pt-3">
+            <h2 class="text-dark m-0 fw-bold">35434.92</h2>
+            <p class="text-danger">-137.4244(-528%) <span class="text-muted">1D</span></p>
+          </div>
+
+        </div>
+
+        <!-- second card -->
+
+        <div
+          class="overflow-hidden d-flex p-2 justify-content-between w-75 mx-auto bg-white shadow-lg mb-4 bg-body rounded-3">
+
+          <div class="pt-3 d-flex">
+
+            <img src="img/eth50x50.png" alt="" style="width: 60px; height:60px;">
+
+            <div class="ms-1 pt-1">
+              <p class="m-0 p-0">ETH</p>
+              <p class="m-0 p-0">Ethereum</p>
+
+            </div>
+
+          </div>
+
+          <div class="pt-3">
+            <h2 class="text-dark m-0 fw-bold">35434.92</h2>
+            <p class="text-danger">-137.4244(-528%) <span class="text-muted">1D</span></p>
+          </div>
+
+        </div>
+
+
+
+        <!-- third card -->
+
+        <div
+          class="overflow-hidden d-flex p-2 justify-content-between w-75 mx-auto bg-white shadow-lg mb-4 bg-body rounded-3">
+
+          <div class="pt-3 d-flex">
+
+            <img src="img/ltc50x50.png" alt="" style="width: 60px; height:60px;">
+
+            <div class="ms-1 pt-1">
+              <p class="m-0 p-0">LTC</p>
+              <p class="m-0 p-0">Litecoin</p>
+
+            </div>
+
+          </div>
+
+          <div class="pt-3">
+            <h2 class="text-dark m-0 fw-bold">35434.92</h2>
+            <p class="text-danger">-137.4244(-528%) <span class="text-muted">1D</span></p>
+          </div>
+
+        </div>
+      </div>
+
+
+
+      <!-- second coloum -->
+      <div class="col-lg-6 text-center text-lg-start">
+
+        <h3 class="fw-bolder mb-0 fs-1">Buy crypto</h3>
+        <p class="fs-2 mt-0">with ease</p>
+        <p class="">Trade a wide variety of leading cryptoassets and crypto crosses, using innovative tools that
+          you won’t find anywhere else. eToro Crypto offers the ultimate crypto solution: trading platform,
+          wallet, and exchange all in one, with the security of a regulated fintech leader that you can trust.
+        </p>
+
+
+        <button class="btnA btn-greenA px-4 py-2 mb-3 mt-3">
+          Start Buying Crypto
+        </button>
+
+        <p class="m-0">Cryptoassets are unregulated in some EU countries,</p>
+        <p class="m-0">the UK and Australia.</p>
+        <p>No consumer protection. Capital at risk</p>
+      </div>
+      <!-- end of second coloum -->
+
+    </div>
+    <!-- end of the second section after the header -->
+
+
+    <!-- ###################################################33 -->
+    <!-- third section after the header -->
+    <div class="row mt-5 pt-4">
+      <!-- first coloum -->
+      <div class="col-lg-6 text-center text-lg-start">
+        <h3 class="fw-bolder mb-0 fs-1">Discover opportunities</h3>
+        <p class="fs-2 mt-0">with commodities</p>
+        <p class="">Take advantage of exciting opportunities in the world’s top resource markets. With one-click
+          trading, flexible leverage, and deep liquidity, trading commodity CFDs allows you to choose an
+          investment amount without being limited to units, such as a whole barrel of oil or an ounce of gold.
+        </p>
+
+        <button class="btnA btn-greenA px-4 py-2 mb-3 mt-3">
+          Start Trading Commodities
+        </button>
+
+      </div>
+      <!-- end of first coloum -->
+
+      <!-- second coloum -->
+      <div class="col-lg-6">
+
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+
+
+              <div class="card border-success w-75 mx-auto shadow-lg mb-4 bg-body rounded">
+                <!-- aqui va el contenido -->
+                <div class="card-header bg-transparent border-success">Header 1</div>
+                <div class="card-body text-success">
+                  <h5 class="card-title">Success card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up
+                    the bulk of the card's content.</p>
+                </div>
+                <div class="card-footer bg-transparent border-success">Footer</div>
+                <!--  -->
+              </div>
+
+
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+
+              <div class="card border-success w-75 mx-auto shadow-lg mb-4 bg-body rounded ">
+                <div class="card-header bg-transparent border-success">Header 2</div>
+                <div class="card-body text-success">
+                  <h5 class="card-title">Success card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up
+                    the bulk of the card's content.</p>
+                </div>
+                <div class="card-footer bg-transparent border-success">Footer</div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+
+              <div class="card border-success w-75 mx-auto shadow-lg mb-4 bg-body rounded">
+                <div class="card-header bg-transparent border-success">Header 3</div>
+                <div class="card-body text-success">
+                  <h5 class="card-title">Success card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up
+                    the bulk of the card's content.</p>
+                </div>
+                <div class="card-footer bg-transparent border-success">Footer</div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <a class="text-center mt-2 d-block text-decoration-none fs-5" href="#">See All Commodities</a>
+
+      </div>
+      <!-- end of second colum -->
+    </div>
+    <!-- end of the third section after the header -->
+
+
+
+    <!-- ###################################################33 -->
+    <!-- fourth section after the header -->
+    <div class="row mt-5 pt-4">
+      <!-- first coloum -->
+      <div class="col-lg-6 text-center text-lg-start order-lg-1">
+        <h3 class="fw-bolder mb-0 fs-1">Go long or short</h3>
+        <p class="fs-2 mt-0">on currencies</p>
+        <p class="">Trade on the largest, most active financial market in the world — the foreign currency
+          exchange, also known as FX. Buy and sell a wide variety of major USD pairs and other currency
+          crosses, with up to 1:30 leverage (or up to 1:400 as a Professional Client) to gain greater exposure
+          with less capital.
+        </p>
+
+        <button class="btnA btn-greenA px-4 py-2 mb-3 mt-3">
+          Start Trading Currencies
+        </button>
+
+      </div>
+      <!-- end of first coloum -->
+
+      <!-- second coloum -->
+      <div class="col-lg-6">
+
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+
+
+              <div class="card border-success w-75 mx-auto shadow-lg mb-4 bg-body rounded">
+                <!-- aqui va el contenido -->
+                <div class="card-header bg-transparent border-success">Header 1</div>
+                <div class="card-body text-success">
+                  <h5 class="card-title">Success card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up
+                    the bulk of the card's content.</p>
+                </div>
+                <div class="card-footer bg-transparent border-success">Footer</div>
+                <!--  -->
+              </div>
+
+
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+
+              <div class="card border-success w-75 mx-auto shadow-lg mb-4 bg-body rounded ">
+                <div class="card-header bg-transparent border-success">Header 2</div>
+                <div class="card-body text-success">
+                  <h5 class="card-title">Success card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up
+                    the bulk of the card's content.</p>
+                </div>
+                <div class="card-footer bg-transparent border-success">Footer</div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+
+              <div class="card border-success w-75 mx-auto shadow-lg mb-4 bg-body rounded">
+                <div class="card-header bg-transparent border-success">Header 3</div>
+                <div class="card-body text-success">
+                  <h5 class="card-title">Success card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up
+                    the bulk of the card's content.</p>
+                </div>
+                <div class="card-footer bg-transparent border-success">Footer</div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <a class="text-center mt-2 d-block text-decoration-none fs-5" href="#">See All Currencies</a>
+
+      </div>
+      <!-- end of second colum -->
+    </div>
+    <!-- end of the fourth section after the header -->
+
+
+
+    <!-- ###################################################33 -->
+    <!-- fith section after the header -->
+    <div class="row mt-5 pt-4">
+      <!-- first coloum -->
+      <div class="col-lg-6 text-center text-lg-start">
+        <h3 class="fw-bolder mb-0 fs-1">Expand exposure</h3>
+        <p class="fs-2 mt-0">with indices</p>
+        <p class="">Benefit from market trends of major stock exchanges around the world — whether they go up or
+          down. Indices are a perfect way to invest in the overall movement of the stock market, with the
+          flexibility to manage your exposure as you see fit.
+        </p>
+
+        <button class="btnA btn-greenA px-4 py-2 mb-3 mt-3">
+          Start Trading Indices
+        </button>
+
+      </div>
+      <!-- end of first coloum -->
+
+      <!-- second coloum -->
+      <div class="col-lg-6">
+
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+
+
+              <div class="card border-success w-75 mx-auto shadow-lg mb-4 bg-body rounded">
+                <!-- aqui va el contenido -->
+                <div class="card-header bg-transparent border-success">Header 1</div>
+                <div class="card-body text-success">
+                  <h5 class="card-title">Success card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up
+                    the bulk of the card's content.</p>
+                </div>
+                <div class="card-footer bg-transparent border-success">Footer</div>
+                <!--  -->
+              </div>
+
+
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+
+              <div class="card border-success w-75 mx-auto shadow-lg mb-4 bg-body rounded ">
+                <div class="card-header bg-transparent border-success">Header 2</div>
+                <div class="card-body text-success">
+                  <h5 class="card-title">Success card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up
+                    the bulk of the card's content.</p>
+                </div>
+                <div class="card-footer bg-transparent border-success">Footer</div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+
+              <div class="card border-success w-75 mx-auto shadow-lg mb-4 bg-body rounded">
+                <div class="card-header bg-transparent border-success">Header 3</div>
+                <div class="card-body text-success">
+                  <h5 class="card-title">Success card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up
+                    the bulk of the card's content.</p>
+                </div>
+                <div class="card-footer bg-transparent border-success">Footer</div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <a class="text-center mt-2 d-block text-decoration-none fs-5" href="#">See All Indices</a>
+
+      </div>
+      <!-- end of second colum -->
+    </div>
+    <!-- end of the fith section after the header -->
+
+
+
+    <!-- ###################################################33 -->
+    <!-- sith section after the header -->
+    <div class="row mt-5 pt-4">
+      <!-- first coloum -->
+      <div class="col-lg-6 text-center text-lg-start order-lg-1">
+        <h3 class="fw-bolder mb-0 fs-1">Diversify</h3>
+        <p class="fs-2 mt-0">with ETFs</p>
+        <p class="">Exchange-traded funds (ETFs) allow investors a flexible yet comprehensive way of investing
+          in the financial markets at a low-cost entry point and without management fees — making them ideal
+          for portfolio diversification. eToro offers both investing in ETFs as the underlying asset, as well
+          as trading them as CFDs.
+        </p>
+
+        <button class="btnA btn-greenA px-4 py-2 mb-3 mt-3">
+          Start Trading ETFs
+        </button>
+
+        <p>Your capital is at risk.</p>
+
+      </div>
+      <!-- end of first coloum -->
+
+      <!-- second coloum -->
+      <div class="col-lg-6">
+
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+
+
+              <div class="card border-success w-75 mx-auto shadow-lg mb-4 bg-body rounded">
+                <!-- aqui va el contenido -->
+                <div class="card-header bg-transparent border-success">Header 1</div>
+                <div class="card-body text-success">
+                  <h5 class="card-title">Success card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up
+                    the bulk of the card's content.</p>
+                </div>
+                <div class="card-footer bg-transparent border-success">Footer</div>
+                <!--  -->
+              </div>
+
+
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+
+              <div class="card border-success w-75 mx-auto shadow-lg mb-4 bg-body rounded ">
+                <div class="card-header bg-transparent border-success">Header 2</div>
+                <div class="card-body text-success">
+                  <h5 class="card-title">Success card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up
+                    the bulk of the card's content.</p>
+                </div>
+                <div class="card-footer bg-transparent border-success">Footer</div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+
+              <div class="card border-success w-75 mx-auto shadow-lg mb-4 bg-body rounded">
+                <div class="card-header bg-transparent border-success">Header 3</div>
+                <div class="card-body text-success">
+                  <h5 class="card-title">Success card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up
+                    the bulk of the card's content.</p>
+                </div>
+                <div class="card-footer bg-transparent border-success">Footer</div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <a class="text-center mt-2 d-block text-decoration-none fs-5" href="#">See All ETFs</a>
+
+      </div>
+      <!-- end of second colum -->
+    </div>
+    <!-- end of the sith section after the header -->
+  </div>
+
+
+  <!-- ###################################################33 -->
+
+  <!-- begins of eight section this is out of the container-xxl -->
+  <div class="get-to-know mt-5 d-none d-lg-block text-center" style="min-height: 35rem;">
+
+    <div class="w-50 mx-auto pt-3">
+
+      <h2 class="pt-3">Get to know eToro, risk-free</h2>
+      <p>Every new account on eToro is credited with $100,000 in a virtual portfolio, so you can practise trading
+        all
+        of the financial markets that our platform offers in real time. Instantly switch between the demo and
+        real
+        trading whenever you like</p>
+    </div>
+
+  </div>
+  <!-- end of the eight section -->
+
+
+  <!-- ####################################3 -->
+  <!-- begins of the ninth section -->
+  <!-- faq -->
+  <section class="faq pt-5">
+    <h2 class="fw-700A txt-center">FAQ</h2>
+
+    <div class="contentA containerA">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              What is a virtual account?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <p>
+                A virtual account on eToro replicates the same features and
+                market conditions as a real trading account, but is used for
+                simulation purposes only. It is ideal for testing out the
+                platform and practising your trading skills, since the virtual
+                account is completely free, without any fees or loss of actual
+                capital.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              What’s the difference between a demo account and a real account?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <p>
+                Trading in a virtual account is simulated and uses virtual
+                funds only. Trading in a real account is actual trading using
+                real funds that you have deposited in your eToro account
+                balance.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              How do I set up my free demo account?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <p>Just follow these 3 simple steps:</p>
+              <ol>
+                <li>
+                  <p>
+                    <a href="#">Log in</a> to the Etoro platform or create an
+                    account
+                  </p>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="i4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#i43"
+              aria-expanded="false" aria-controls="i43">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+              culpa.
+            </button>
+          </h2>
+          <div id="i43" class="accordion-collapse collapse" aria-labelledby="i4"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Beatae laborum ratione voluptas nobis veritatis mollitia sunt?
+                Repellendus ea blanditiis perferendis.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="i5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#i53"
+              aria-expanded="false" aria-controls="i53">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+              culpa.
+            </button>
+          </h2>
+          <div id="i53" class="accordion-collapse collapse" aria-labelledby="i5"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Beatae laborum ratione voluptas nobis veritatis mollitia sunt?
+                Repellendus ea blanditiis perferendis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- faq -->
+  <!-- end of tenth section after the header -->
+
+
+
+  <!-- Footer -->
+
+  <footer class="bg-light-grey mt-5">
+    <div class="container-content p-5">
+      <div class="row g-5">
+        <div class="col-md-3">
+          <a href="#" class="navbar-brand">
+            <img src="img/logo-white.svg" alt="logo Etoro" class="img-fluid pb-2"
+              style="width: 6rem; margin-top: -2rem" />
+          </a>
+          <p class="light-grey-content fw-lighter">
+            eToro, la plataforma social de inversión líder del mercado, ofrece
+            una amplia variedad de herramientas para invertir en mercados de
+            valores. Cree un portafolio con criptomonedas, acciones, materias
+            primas y ETF, entre otros
+          </p>
+          <p class="text-white fs-8 pt-5">ENCUÉNTRENOS EN</p>
+          <a href="#" class="fs-5 me-3 text-white"><i class="bi bi-facebook facebook-hover"></i></a>
+          <a href="#" class="fs-5 me-3 text-white"><i class="bi bi-instagram instagram-hover"></i></a>
+          <a href="#" class="fs-5 me-3 text-white"><i class="bi bi-youtube youtube-hover"></i></a>
+          <a href="#" class="fs-5 me-3 text-white"><i class="bi bi-twitter twitter-hover"></i></a>
+          <a href="#" class="fs-5 text-white"><i class="bi bi-linkedin linkedin-hover"></i></a>
+        </div>
+        <!-- Col-md-3 -->
+
+        <div class="col-md-3">
+          <p class="light-grey-content fs-8 fw-light">
+            PRINCIPALES INSTRUMENTOS
+          </p>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Bitcoin (BTC)</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Ethereum (ETH)</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Acciones de Amazon</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Acciones de Apple</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Oro (materia prima)</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Índice NSDQ100</a>
+            </li>
+          </ul>
+
+          <p class="light-grey-content fs-8 fw-light">SOBRE NOSOTROS</p>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Acerca de eToro</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Reseñas sobre eToro</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Oportunidades de empleo</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Nuestras oficinas</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Accesibilidad</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Impresión</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Col-md-3 -->
+
+        <div class="col-md-3">
+          <p class="light-grey-content fs-8 fw-light">ASISTENCIA TÉCNICA</p>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Centro de ayuda</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Cómo realizar un depósito</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Cómo realizar un retiro</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Cómo abrir una cuenta</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Cómo verificar su cuenta</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Servicio de atención al cliente</a>
+            </li>
+          </ul>
+
+          <p class="light-grey-content fs-8 fw-light">
+            PRIVACIDAD Y REGLAMENTACIÓN
+          </p>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Política de cookies de eToro</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Política de privacidad</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Reglamentación y licencias</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Declaración general sobre riesgos</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Términos y condiciones</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Datos de reclamaciones de “Clientes de la
+                FCA”</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Col-md-3 -->
+
+        <div class="col-md-3">
+          <p class="light-grey-content fs-8 fw-light">MÁS INFORMACIÓN</p>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Cómo funciona el Copytrading</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Inversión responsable</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Evitar fraudes</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Qué es el apalancamiento y el margen</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Explicación para comprar y vender</a>
+            </li>
+          </ul>
+
+          <p class="light-grey-content fs-8 fw-light">SOCIOS Y PROMOCIONES</p>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Invite a un amigo</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Programa de afiliación</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">Club eToro</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-decoration-none fs-9 fw-300">CopyPortfolios de socios</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Col-md-3 -->
+      </div>
+      <!-- Row -->
+
+      <section class="border-top light-grey-content fw-lighter pt-5 mt-5">
+        <p>
+          Los CFD son instrumentos complejos y tienen un alto riesgo de perder
+          dinero rápidamente debido al apalancamiento.
+          <span class="text-white-medium fw-bold">El 68% de las cuentas de inversionistas minoristas pierden dinero
+            cuando intercambian CFD con este proveedor.</span>
+          Debe considerar si comprende cómo funcionan los CFD y si puede
+          permitirse asumir el alto riesgo de perder su dinero.
+        </p>
+        <p>
+          eToro (Europa) Ltd., una empresa de servicios financieros autorizada
+          y regulada por la Comisión del Mercado de Valores de Chipre (CySEC)
+          con la licencia n.º 109/10.
+        </p>
+        <p>
+          eToro (Reino Unido) Ltd., una empresa de servicios financieros
+          autorizada y regulada por la Autoridad de Conducta Financiera (FCA,
+          por su sigla en inglés) con la licencia FRN 583263.
+        </p>
+        <p>
+          eToro AUS Capital Limited, está autorizada por la Comisión de
+          Inversiones y Valores de Australia (ASIC) a proporcionar servicios
+          financieros conforme a la licencia 491139.
+        </p>
+        <p>
+          eToro (Seychelles) Ltd. cuenta con la licencia de la Autoridad de
+          Servicios Financieros de Seychelles (FSAS, en inglés) para prestar
+          servicios de agente de corretaje conforme a la Ley de Valores de
+          2007, con Licencia número SD076.
+        </p>
+        <p>
+          El rendimiento pasado no es un indicador de los resultados futuros.
+          La CNMV ha determinado que, debido a la complejidad y el riesgo, la
+          compra de estos productos por parte de inversores minoristas no es
+          apropiada.
+        </p>
+        <a href="#" class="links-color text-decoration-none d-inline-block fw-lighter mb-2">Información General de
+          Riesgos</a>
+        &#124;
+        <a href="#" class="links-color text-decoration-none d-inline-block fw-lighter mb-2">Términos y condiciones</a>
+        <p>
+          Pida consejo a un asesor financiero independiente con la pertinente
+          licencia y asegúrese de que tiene el apetito de riesgo, la
+          experiencia y el conocimiento pertinentes antes de decidirse a
+          invertir. Bajo ninguna circunstancia eToro tendrá responsabilidad
+          alguna ante cualquier persona o entidad por (a) las pérdidas o daños
+          totales o parciales causados por, resultantes de o relacionados con
+          las transacciones vinculadas a CFD ni por (b) los daños directos,
+          indirectos, especiales, resultantes o fortuitos de cualquier
+          naturaleza.
+        </p>
+        <p>
+          Los mercados de las criptomonedas son servicios no regulados que no
+          se rigen por ningún marco reglamentario concreto (incluyendo MiFID)
+          de Europa ni de Seychelles. Por tanto, al utilizar nuestro servicio
+          de inversión en criptomonedas no se beneficiará de las protecciones
+          disponibles para aquellos clientes que utilizan los servicios de
+          inversión regulados de MiFID, como acceso al Fondo de compensación
+          para inversores de Chipre (ICF, por sus siglas en inglés), al Plan
+          de Compensación de Servicios Financieros (FSCS, por sus siglas en
+          inglés) y al Servicio de Protección y Defensa de Usuarios del Sector
+          Financiero para la resolución de conflictos, o de las protecciones
+          disponibles conforme al marco reglamentario de Seychelles (según
+          corresponda).
+        </p>
+        <p>
+          Invertir con eToro siguiendo, copiando o replicando las operaciones
+          de otros inversores conlleva un alto nivel de riesgo, incluso cuando
+          se sigue, copia o replica a inversores con un excelente desempeño.
+          Entre tales riesgos se incluye poder seguir o copiar las decisiones
+          de inversión de inversores que podrían no tener experiencia o ser
+          poco profesionales, o de inversores cuya finalidad, intención o
+          estado financiero pueda diferir del suyo. El rendimiento pasado de
+          un miembro de la comunidad de eToro no es un indicador fiable de su
+          rendimiento futuro. El contenido de la plataforma de trading social
+          de eToro lo generan los miembros de su comunidad y no contiene
+          asesoramiento ni recomendaciones realizados por parte de eToro, su
+          red de inversión social.
+        </p>
+        <p>
+          Copyright &copy; 2006-2022 eToro - Su red de inversión social. Todos
+          los derechos reservados.
+        </p>
+      </section>
+    </div>
+    <!-- Container -->
+  </footer>
+  <!-- Footer -->
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

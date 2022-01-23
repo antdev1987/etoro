@@ -10,22 +10,46 @@
   box-sizing: border-box;
 }
 
-html {
+
+/* .testing {
+  font-size: 62.5%;
+}
+
+.testing body {
+  font-size: 1.6rem;
+}
+
+.testing .navbar a, 
+.testing .navbar button {
+  font-size: 1.6rem;
+}
+
+.testing .navbar a {
+  margin: 0 1rem;
+
+} */
+
+/* .testing .navbar .dropdown-item {
+  margin: 0;
+}
+
+.testing .navbar button {
+  font-size: 1.8rem;
+} */
+
+html{
   font-size: 62.5%;
 }
 
 body {
   font-size: 1.6rem;
   font-family: 'Open Sans', sans-serif;
+  background-color: #f5f5f5;
 }
 
 /* Reset */
 
 /* utilities */
-
-.mt-5 {
-  margin-top: 5rem;
-}
 
 .containerA {
   max-width: 1200px;
@@ -114,7 +138,6 @@ body {
 .lineA::after {
   content: '';
   position: absolute;
-  background: white;
   border: 1px solid #eaeaea;
   width: 2rem;
   height: 2rem;
@@ -324,7 +347,24 @@ body {
   }
 }
 
-/* Codigo Footer */
+
+
+/* css of trading page */
+
+.market-etoro {
+  background: #7cce67;
+}
+
+.get-to-know{
+  background-image: url("../img/banner-bottom.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+ 
+}
+
+
+
+/* code Footer */
 /* Container */
 .container-content {
     max-width: 1090px;
