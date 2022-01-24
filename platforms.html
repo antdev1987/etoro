@@ -20,7 +20,7 @@
 
   <body>
     <!-- the menu begins here -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-back bg-light sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
@@ -33,7 +33,7 @@
         </a>
 
         <button
-          class="navbar-toggler"
+          class="navbar-toggler my-3"
           type="button"
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasNavbar"
@@ -59,12 +59,12 @@
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item border-end border-2 me-3">
+              <li class="nav-item pt-3 border-end border-2 me-3">
                 <a class="nav-link active" aria-current="page" href="#"
-                  ><i class="bi bi-search"></i
+                  ><i class="bi bi-search border"></i
                 ></a>
               </li>
-              <li class="nav-item dropdown me-3">
+              <li class="nav-item dropdown me-3 menu-i-hov">
                 <a
                   class="nav-link dropdown-toggle"
                   href="#"
@@ -98,19 +98,19 @@
                   </li>
                 </ul>
               </li>
-              <li class="nav-item me-3">
+              <li class="nav-item me-3 menu-i-hov">
                 <a class="nav-link" aria-current="page" href="#">Investing</a>
               </li>
-              <li class="nav-item me-3">
+              <li class="nav-item me-3 menu-i-hov">
                 <a class="nav-link" href="#">Top Markets</a>
               </li>
-              <li class="nav-item me-3">
+              <li class="nav-item me-3 menu-i-hov">
                 <a class="nav-link" href="#">Education</a>
               </li>
-              <li class="nav-item me-3">
+              <li class="nav-item me-3 menu-i-hov">
                 <a class="nav-link" href="#">Company</a>
               </li>
-              <li class="nav-item me-3">
+              <li class="nav-item me-3 menu-i-hov">
                 <a class="nav-link text-dark ms-2" href="#">Log in</a>
               </li>
             </ul>
@@ -134,7 +134,8 @@
       <div class="container-xxl">
         <div class="row py-5 text-center text-lg-start">
           <div class="col-lg-6 platform-header-1">
-            <p>Home / Trading / Markets</p>
+            <!-- <p>Home / Trading / Markets</p> -->
+            <p class="text-uppercase"> <span class="">Home</span> / <span class="">Trading</span> / Platforms-history</p>
             <h1>The Etoro trading platform and app</h1>
             <h3>
               eToro is the world’s leading social trading platform, trusted by
@@ -160,7 +161,7 @@
     </div>
     <!-- the header ends here -->
 
-    <div class="container-xxl pt-5">
+    <div class="container-xl pt-5">
       <!-- ######################################### -->
       <!-- first section after the header -->
       <div class="platform-join-etoro mt-4">

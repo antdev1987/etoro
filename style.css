@@ -363,6 +363,8 @@ body {
   }
 }
 
+
+
 /* css of trading page */
 
 .market-etoro {
@@ -374,6 +376,30 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+
+
+.menu-i-hov:hover {
+  background-color: #f1ecec;
+}
+
+.menu-i-hov{
+  padding: 10px 0;
+}
+.navbar-back {
+  background-color: #ffffff;
+  padding: 0 0;
+}
+
+
+@media (min-width: 768px) {
+ .trading-header{
+  padding-left: 9rem;
+  padding-top: 6rem;
+ }
+}
+
+
 
 /* code Footer */
 /* Container */
