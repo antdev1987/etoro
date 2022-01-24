@@ -73,6 +73,25 @@ body {
   padding: 3rem 0;
 }
 
+.my-10 {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.ms-8 {
+  margin-left: 8rem;
+}
+
+.w-fix {
+  width: 100%;
+}
+
+@media (min-width: 992px) { 
+  .w-fix {
+    width: 75%;
+  }
+ }
+
 .bg-blackA,
 .btn-blackA {
   background: #434f62;
