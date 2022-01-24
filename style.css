@@ -478,13 +478,32 @@ body {
   text-decoration: none;
 }
 
-.platfom-join-img-1 {
-  background-image: url("images/platform-1.svg");
+.platfom-join-img {
   margin: 0 auto;
   display: block;
   height: 15rem;
   width: 15rem;
 }
+
+.platfom-join-img-1{
+  background-image: url("images/platform-1.svg");
+}
+.platfom-join-img-2{
+  background-image: url("images/platform-2.svg");
+}
+.platfom-join-img-3{
+  background-image: url("images/platform-3.svg");
+}
+.platfom-join-img-4{
+  background-image: url("images/platform-4.svg");
+}
+.platfom-join-img-5{
+  background-image: url("images/platform-5.svg");
+}
+.platfom-join-img-6{
+  background-image: url("images/platform-6.svg");
+}
+
 
 .platform-join-text {
   color: black;
@@ -509,4 +528,24 @@ body {
     -webkit-clip-path: polygon(0 0, 100% 0%, 100% 77%, 0% 100%);
   clip-path: polygon(0 0, 100% 0%, 100% 77%, 0% 100%);
   }
+}
+
+
+/* platform-multi-asset */
+
+.platform-multi-asset{
+  /* border: 2px solid blue; */
+  min-height: 560px;
+}
+
+.platform-multi-asset-img{
+  /* background-image: url('images/platform-multiasset.jpg');
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  height: 860px; */
+}
+
+.platform-multi-asset-img img{
+  /* width: 100%; */
 }
