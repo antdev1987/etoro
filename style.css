@@ -592,6 +592,10 @@ body {
   /* width: 100%; */
 }
 
+
+
+
+/* ############################## */
 /* code of home etoro */
 
 .home-etoro-header {
@@ -600,7 +604,8 @@ body {
   background-position-x: center;
   background-position-y: center;
   background-size: cover;
-  height: 95vh;
+  height: 75vh;
+  overflow: hidden;
 }
 
 .home-etoro-header-cols {
@@ -621,8 +626,34 @@ body {
   font-weight: bold;
 }
 
+.home-etoro-header-h3 {
+  /* padding-right: 50px; */
+  width: 75%;
+  
+}
+
+.home-etoro-header-h2{
+  width: 75% !important;
+  
+}
+
+.home-banner{
+ background-color: #393E54;
+}
+
+
 @media (min-width: 992px) {
   .cripto-cards {
     margin-top: -20% !important;
   }
 }
+
+@media (min-width: 768px) { 
+
+  .home-etoro-header {
+    height: 95vh;
+  }
+
+
+ }
+
