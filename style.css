@@ -592,15 +592,12 @@ body {
   /* width: 100%; */
 }
 
-
-
-
 /* ############################## */
 /* code of home etoro */
 
 .home-etoro-header {
   /* background-image: url("images/header_bg_platform.jpg"); */
-  background-image:url('//marketing.etorostatic.com/cache1/hp/v_242/images/hp_cover_202101/slider_top/slide_1_bg.jpg');
+  background-image: url("//marketing.etorostatic.com/cache1/hp/v_242/images/hp_cover_202101/slider_top/slide_1_bg.jpg");
   background-position-x: center;
   background-position-y: center;
   background-size: cover;
@@ -629,31 +626,111 @@ body {
 .home-etoro-header-h3 {
   /* padding-right: 50px; */
   width: 75%;
-  
 }
 
-.home-etoro-header-h2{
+.home-etoro-header-h2 {
   width: 75% !important;
-  
 }
 
-.home-banner{
- background-color: #393E54;
+.home-banner {
+  background-color: #393e54;
 }
-
 
 @media (min-width: 992px) {
   .cripto-cards {
     margin-top: -20% !important;
   }
+
+ 
+
 }
 
-@media (min-width: 768px) { 
-
+@media (min-width: 768px) {
   .home-etoro-header {
     height: 95vh;
   }
 
+  
+ 
+}
 
- }
 
+@media (min-width: 576px) {
+
+  .home-etoro-header-h3 {
+    /* padding-right: 50px; */
+    width: 88%;
+  }
+  
+  .home-etoro-header-h2 {
+    width: 88% !important;
+  }
+
+
+}
+
+@media (max-height: 702px) {
+  
+
+  .home-etoro-header-cols {
+    /* align-self: flex-start !important; */
+    padding-top: 10%;
+    width: 100% !important;
+  }
+
+  .home-etoro-header-h3 {
+    /* padding-right: 50px; */
+    width: 72%;
+  }
+  
+  .home-etoro-header-h2 {
+    width: 72% !important;
+  }
+
+
+  .home-etoro-header-h2 {
+  }
+}
+
+@media (max-height: 585px) {
+ 
+
+  .home-etoro-header-cols {
+    /* align-self: flex-start !important; */
+    padding-top: 0%;
+    width: 100% !important;
+  }
+
+  .home-etoro-header-h3 {
+    /* padding-right: 50px; */
+    /* width: 88%; */
+    /* font-size: 1.5rem !important; */
+  }
+  
+  .home-etoro-header-h2 {
+    /* width: 88% !important; */
+    /* font-size: 2rem; */
+  }
+
+}
+
+@media (max-height: 420px) {
+  
+  .home-etoro-header-cols {
+    /* align-self: flex-start !important; */
+    padding-top: 0%;
+    width: 100% !important;
+  }
+
+  .home-etoro-header-h3 {
+    /* padding-right: 50px; */
+    /* width: 88%; */
+    font-size: 1.5rem !important;
+  }
+  
+  .home-etoro-header-h2 {
+    /* width: 88% !important; */
+    font-size: 2rem;
+  }
+
+}
