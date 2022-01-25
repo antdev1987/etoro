@@ -112,6 +112,14 @@ body {
   color: white;
 }
 
+.rounded-1A{
+  border-radius: 10px;
+}
+
+.obj-cover {
+  object-fit: cover;
+}
+
 /* utilities */
 
 /* Components */
@@ -121,7 +129,7 @@ body {
   padding: 1rem 3rem;
   border-radius: 4px;
   font-weight: 600;
-  height: 5rem;
+  /* height: 5rem; */
   font-size: 1.8rem;
   display: inline-block;
   text-decoration: none;
@@ -593,4 +601,29 @@ body {
 
 .platform-multi-asset-img img{
   /* width: 100%; */
+}
+
+
+
+
+/* code of home etoro */
+
+.home-etoro-header{
+  background-image: url("images/header_bg_platform.jpg");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  height: 95vh;
+}
+
+.home-etoro-header-cols {
+  padding-top: 15%;
+}
+
+.home-etoro-header-cols-2{
+  padding-top: 5%;
+}
+
+#cripto-cards{
+  margin-top: -20%;
 }
