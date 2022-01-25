@@ -592,6 +592,25 @@ body {
   /* width: 100%; */
 }
 
+.platform-carrousel {
+  background-color: #3F4653;
+  /* height: 100px; */
+}
+
+.platform-carouse-icon-hover{
+  background-color: #444958;
+  border-bottom: 2px solid #00A5EE;
+  color: #00A5EE;
+}
+
+.b-icon:hover{
+  background-color: #444958 !important;
+  color: #00A5EE !important;
+}
+
+
+
+
 /* ############################## */
 /* code of home etoro */
 
