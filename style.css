@@ -86,11 +86,11 @@ body {
   width: 100%;
 }
 
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
   .w-fix {
     width: 75%;
   }
- }
+}
 
 .bg-blackA,
 .btn-blackA {
@@ -112,7 +112,7 @@ body {
   color: white;
 }
 
-.rounded-1A{
+.rounded-1A {
   border-radius: 10px;
 }
 
@@ -371,8 +371,6 @@ body {
   }
 }
 
-
-
 /* css of trading page */
 
 .market-etoro {
@@ -385,13 +383,11 @@ body {
   background-position: center center;
 }
 
-
-
 .menu-i-hov:hover {
   background-color: #f1ecec;
 }
 
-.menu-i-hov{
+.menu-i-hov {
   padding: 10px 0;
 }
 .navbar-back {
@@ -399,15 +395,12 @@ body {
   padding: 0 0;
 }
 
-
 @media (min-width: 768px) {
- .trading-header{
-  padding-left: 9rem;
-  padding-top: 6rem;
- }
+  .trading-header {
+    padding-left: 9rem;
+    padding-top: 6rem;
+  }
 }
-
-
 
 /* code Footer */
 /* Container */
@@ -478,7 +471,6 @@ body {
   background-position-x: center;
   background-position-y: center;
   background-size: cover;
- 
 }
 
 .platform-header-1 p {
@@ -538,25 +530,24 @@ body {
   width: 15rem;
 }
 
-.platfom-join-img-1{
+.platfom-join-img-1 {
   background-image: url("images/platform-1.svg");
 }
-.platfom-join-img-2{
+.platfom-join-img-2 {
   background-image: url("images/platform-2.svg");
 }
-.platfom-join-img-3{
+.platfom-join-img-3 {
   background-image: url("images/platform-3.svg");
 }
-.platfom-join-img-4{
+.platfom-join-img-4 {
   background-image: url("images/platform-4.svg");
 }
-.platfom-join-img-5{
+.platfom-join-img-5 {
   background-image: url("images/platform-5.svg");
 }
-.platfom-join-img-6{
+.platfom-join-img-6 {
   background-image: url("images/platform-6.svg");
 }
-
 
 .platform-join-text {
   color: black;
@@ -564,34 +555,32 @@ body {
 
 @media (min-width: 768px) {
   .platform-join-wrapper {
-    transition: all .5s;
+    transition: all 0.5s;
     border: hsla(217, 12%, 71%, 0.301) solid 3px;
   }
 
-  .platform-join-wrapper:hover{
-    border:hsla(217, 12%, 71%, 0.747) solid 3px;
+  .platform-join-wrapper:hover {
+    border: hsla(217, 12%, 71%, 0.747) solid 3px;
   }
 
   .platform-join-wrapper a {
     padding: 3rem 0;
   }
 
-  .market-etoro-platform-header{
-   
+  .market-etoro-platform-header {
     -webkit-clip-path: polygon(0 0, 100% 0%, 100% 77%, 0% 100%);
-  clip-path: polygon(0 0, 100% 0%, 100% 77%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 77%, 0% 100%);
   }
 }
 
-
 /* platform-multi-asset */
 
-.platform-multi-asset{
+.platform-multi-asset {
   /* border: 2px solid blue; */
   min-height: 560px;
 }
 
-.platform-multi-asset-img{
+.platform-multi-asset-img {
   /* background-image: url('images/platform-multiasset.jpg');
   background-position-x: center;
   background-position-y: center;
@@ -599,17 +588,15 @@ body {
   height: 860px; */
 }
 
-.platform-multi-asset-img img{
+.platform-multi-asset-img img {
   /* width: 100%; */
 }
 
-
-
-
 /* code of home etoro */
 
-.home-etoro-header{
-  background-image: url("images/header_bg_platform.jpg");
+.home-etoro-header {
+  /* background-image: url("images/header_bg_platform.jpg"); */
+  background-image:url('//marketing.etorostatic.com/cache1/hp/v_242/images/hp_cover_202101/slider_top/slide_1_bg.jpg');
   background-position-x: center;
   background-position-y: center;
   background-size: cover;
@@ -620,10 +607,22 @@ body {
   padding-top: 15%;
 }
 
-.home-etoro-header-cols-2{
+.home-etoro-header-cols-2 {
   padding-top: 5%;
 }
 
-#cripto-cards{
-  margin-top: -20%;
+.nav-tabs > li {
+  flex: 1;
+}
+
+.nav-tabs > li .active {
+  border-bottom: 2px solid #6aac0e !important;
+  color: #6aac0e !important;
+  font-weight: bold;
+}
+
+@media (min-width: 992px) {
+  .cripto-cards {
+    margin-top: -20% !important;
+  }
 }

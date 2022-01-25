@@ -134,18 +134,23 @@
     <!-- the header begins here -->
     <div class="container-fluid home-etoro-header">
       <div class="container-xl h-100">
-        <div class="row py-5 text-center text-lg-start h-100">
-          <div class="col-lg-6 platform-header-1 home-etoro-header-cols">
-            <h2 class="fw-bold text-light pb-5 display-5">
+
+        <div class="row py-5 text-center  text-lg-start h-100">
+          <div class="col-lg-6  align-self-center align-self-lg-start  platform-header-1 home-etoro-header-cols">
+            <h2 class="fw-bold px-5 px-lg-0 pt-5 pt-lg-0 text-light pb-5 display-5">
               Trade with confidence on the world's leading social trading
               platform
             </h2>
-            <h3 class="">
+            <h3 class="d-none d-md-block">
               Join millions who've already discovered smarter investing in
               multiple types of assets. Choose an investment product to start
               with.
             </h3>
+
+            <a href="" class="d-lg-none btnA btn-greenA">Join Now</a>
           </div>
+
+          
 
           <div class="col-lg-6 d-none d-lg-block home-etoro-header-cols-2">
             <div>
@@ -157,6 +162,11 @@
               />
             </div>
           </div>
+
+          <div class="col d-lg-none d-flex">
+            <p class="text-white align-self-end">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit illum porro reiciendis assumenda quibusdam obcaecati, consequatur rem ut ratione vitae nobis earum provident ullam aliquam?</p>
+          </div>
+
         </div>
       </div>
     </div>
@@ -173,11 +183,15 @@
       <!-- ######################################### -->
       <!-- first section after the header -->
       
-      <section id='cripto-cards' class="d-none d-lg-block" >
+      <section  class="cripto-cards m-0 d-none d-md-block" >
+
+        <h3 class="fw-bolder mb-0 fs-1 d-lg-none pb-4 pt-5">
+          Choose an investment product to get started <span class="fw-normal">and discover why over 20 million users trust eToro</span>
+        </h3>
 
         <div class="row">
 
-          <div class="col-lg-4 px-0">
+          <div class="col-4 px-0">
             <div class="card rounded-1A mx-auto" style="max-width: 364px;">
             <div class="card-body px-0 py-0">
 
@@ -201,7 +215,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 pe-0">
+        <div class="col-4 pe-0">
           <div class="card rounded-1A mx-auto" style="max-width: 364px;">
           <div class="card-body px-0 py-0">
 
@@ -226,7 +240,7 @@
       </div>
 
 
-      <div class="col-lg-4 pe-0 me-6">
+      <div class="col-4 pe-0 me-6">
         <div class="card rounded-1A mx-auto" style="max-width: 364px;">
         <div class="card-body px-0 py-0">
 
@@ -265,56 +279,43 @@
 
       <!-- ###################################################33 -->
       <!-- second section after the header -->
-      <section class="platform-multi-asset">
-        <h3 class="fw-bolder mb-0 fs-1 text-center pb-4 pt-5">
-          Multi-asset platform
+      <section class="home-nav-tabs d-md-none ">
+        <h3 class="fw-bolder mb-0 fs-1  pb-4 pt-5">
+          Choose an investment product to get started <span class="fw-normal">and discover why over 20 million users trust eToro</span>
         </h3>
 
-        <p class="text-center text-secondary mx-auto fs-2 w-75">
-          eToro offers 2,000+ financial instruments across various classes, such
-          as stocks, crypto and more. To explore more visit the Trade Markets
-          Page.
-        </p>
+        
+        <ul class="nav nav-tabs d-flex" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link border-0 active w-100 text-dark" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link border-0 w-100 text-dark" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link border-0 w-100 text-dark" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
 
-        <div class="platform-multi-asset-img">
-          <img class="img-fluid" src="images/platform-multiasset.jpg" alt="" />
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <h3 class="fw-bold pt-5 fs-2">Invest commission free</h3>
+            <p class="lead fs-3 mb-5">No markup on stocks & ETFs from leading exchanges – no matter how much you invest</p>
+            <a href="" class="btn btn-outline-success mt-5 py-2 px-3 fs-3">Learn More</a>
+            <video class="w-100" autoplay loop muted src="//marketing.etorostatic.com/cache1/hp/v_242/images/funnels/stocks-4.mp4"></video>
+            
+          </div>
+
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
         </div>
 
-        <div class="d-flex pb-3">
-          <span class="align-self-center d-none d-lg-block pe-3">
-            <img
-              src="images/platform-icon-1.svg"
-              alt=""
-              style="width: 60px; height: 60px"
-            />
-          </span>
-          <p class="lead fs-3 px-3 px-lg-0">
-            To enable eToro clients to use advanced trading features, such as
-            leverage and short (SELL) orders, and to offer financial instruments
-            that normally cannot be traded, such as indices and commodities,
-            eToro utilises Contracts for Difference (CFDs). To read more about
-            CFD trading, click here.
-          </p>
-        </div>
 
-        <div class="d-flex">
-          <span class="align-self-center d-none d-lg-block pe-3">
-            <img
-              src="images/platform-icon-2.svg"
-              alt=""
-              style="width: 60px; height: 60px"
-            />
-          </span>
-          <p class="lead fs-3 px-3 px-lg-0">
-            Additionally, to enable traders and investors direct access to the
-            market, some asset classes, such as stocks and cryptoassets, offer
-            direct ownership of the underlying assets, which we buy and hold in
-            each client’s name.
-          </p>
-        </div>
       </section>
-
       <!-- end of the second section after the header -->
+
+
+
 
       <!-- joshua  -->
 
