@@ -20,9 +20,9 @@
 
   <body>
     <!-- the menu begins here -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-back sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img
             src="img/logo.svg"
             alt=""
@@ -33,7 +33,7 @@
         </a>
 
         <button
-          class="navbar-toggler"
+          class="navbar-toggler my-3"
           type="button"
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasNavbar"
@@ -59,12 +59,12 @@
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item border-end border-2 me-3">
+              <li class="nav-item border-end pt-3 border-2 me-3">
                 <a class="nav-link active" aria-current="page" href="#"
                   ><i class="bi bi-search"></i
                 ></a>
               </li>
-              <li class="nav-item dropdown me-3">
+              <li class="nav-item dropdown me-3 menu-i-hov">
                 <a
                   class="nav-link dropdown-toggle"
                   href="#"
@@ -76,12 +76,12 @@
                   Trading
                 </a>
                 <ul
-                  class="dropdown-menu"
+                  class="dropdown-menu mt-3 py-2"
                   aria-labelledby="offcanvasNavbarDropdown"
                 >
                   <li>
                     <a
-                      class="dropdown-item py-2 fs-4 active"
+                      class="dropdown-item py-2 fs-4 text-success fw-bold"
                       href="trading.html"
                       >Trade Markets on eToro</a
                     >
@@ -92,39 +92,37 @@
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item py-2 fs-4" href="index.html"
+                    <a class="dropdown-item py-2 fs-4" href="demo.html"
                       >Demo Account</a
                     >
                   </li>
                   
                 </ul>
               </li>
-              <li class="nav-item me-3">
+              <li class="nav-item me-3 menu-i-hov">
                 <a class="nav-link" aria-current="page" href="#">Investing</a>
               </li>
-              <li class="nav-item me-3">
+              <li class="nav-item me-3 menu-i-hov">
                 <a class="nav-link" href="#">Top Markets</a>
               </li>
-              <li class="nav-item me-3">
+              <li class="nav-item me-3 menu-i-hov">
                 <a class="nav-link" href="#">Education</a>
               </li>
-              <li class="nav-item me-3">
+              <li class="nav-item me-3 menu-i-hov">
                 <a class="nav-link" href="#">Company</a>
               </li>
-              <li class="nav-item me-3">
+              <li class="nav-item me-3 menu-i-hov">
                 <a class="nav-link text-dark ms-2" href="#">Log in</a>
               </li>
             </ul>
 
-            <form class="d-flex">
-              <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
-              <button
-                class="btn btn-success px-4 text-uppercase text-white fw-bold"
-                type="submit"
-              >
-                Sign Up
-              </button>
-            </form>
+            <button
+            class="btnA btn-greenA py-0 my-auto text-uppercase text-white fw-bold"
+            type="submit"
+            style="height: 40px;"
+          >
+            Sign Up
+          </button>
           </div>
         </div>
       </div>
@@ -134,9 +132,10 @@
     <!-- the header begins here -->
     <div class="container-fluid market-etoro">
       <div class="container-xxl">
-        <div class="row py-5 overflow-hidden">
-          <div class="col-lg-6 text-white text-center">
-            <p class="text-uppercase">Home / Trading / Markets</p>
+        <div class="row overflow-hidden trading-header">
+
+          <div class="col-lg-6 py-5 text-white">
+            <p class="text-uppercase "> <span class="border-bottom border-3 ">Home</span> / <span class="border-bottom border-3">Trading</span> / Markets</p>
             <h2 class="display-4 fw-bold">Trade and invest in top markets</h2>
 
             <p class="fs-2">
@@ -144,7 +143,7 @@
               manage a variety of assets in a single portfolio.
             </p>
 
-            <div class="row mx-auto mx-lg-0 mt-4 g-0" style="max-width: 500px">
+            <div class="row mx-auto text-center mx-lg-0 mt-4 g-0" style="max-width: 500px">
               <div class="col-4">
                 <div style="height: 80px">
                   <img
@@ -186,7 +185,7 @@
               </div>
             </div>
 
-            <div class="row mx-auto mx-lg-0 mt-2 g-0" style="max-width: 500px">
+            <div class="row mx-auto mx-lg-0 mt-2 g-0 text-center" style="max-width: 500px">
               <div class="col-4">
                 <div style="height: 80px">
                   <img
@@ -196,8 +195,8 @@
                   />
                 </div>
 
-                <p class="fw-light fs-5 mb-0">Currencies</p>
-                <p class="fw-bold fs-4">2714</p>
+                <p class="fw-light fs-2 mb-0">Currencies</p>
+                <p class="fw-bold fs-1">2714</p>
               </div>
 
               <div class="col-4">
@@ -208,8 +207,8 @@
                     alt=""
                   />
                 </div>
-                <p class="fw-light fs-5 mb-0">Indices</p>
-                <p class="fw-bold fs-4">45</p>
+                <p class="fw-light fs-2 mb-0">Indices</p>
+                <p class="fw-bold fs-1">45</p>
               </div>
 
               <div class="col-4">
@@ -222,14 +221,14 @@
                 </div>
 
                 <div class="w-100 text-nowrap">
-                  <p class="fw-light fs-5 mb-0 d-block">ETFs</p>
-                  <p class="fw-bold fs-4">33</p>
+                  <p class="fw-light fs-2 mb-0 d-block">ETFs</p>
+                  <p class="fw-bold fs-1">33</p>
                 </div>
               </div>
             </div>
           </div>
           <!-- second flex -->
-          <div class="d-none d-lg-block col-lg-6">
+          <div class="d-none d-lg-block col-lg-6 py-5">
             <img
               class="img-fluid mx-auto"
               src="img/tradeMarketsv2.png"
@@ -241,7 +240,7 @@
     </div>
     <!-- the header ends here -->
 
-    <div class="container-xxl pt-5">
+    <div class="container-xl pt-5">
       <!-- ######################################### -->
       <!-- first section after the header -->
       <div class="row mt-4">

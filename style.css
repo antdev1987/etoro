@@ -86,11 +86,11 @@ body {
   width: 100%;
 }
 
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
   .w-fix {
     width: 75%;
   }
- }
+}
 
 .bg-blackA,
 .btn-blackA {
@@ -112,6 +112,14 @@ body {
   color: white;
 }
 
+.rounded-1A {
+  border-radius: 10px;
+}
+
+.obj-cover {
+  object-fit: cover;
+}
+
 /* utilities */
 
 /* Components */
@@ -121,7 +129,7 @@ body {
   padding: 1rem 3rem;
   border-radius: 4px;
   font-weight: 600;
-  height: 5rem;
+  /* height: 5rem; */
   font-size: 1.8rem;
   display: inline-block;
   text-decoration: none;
@@ -375,6 +383,25 @@ body {
   background-position: center center;
 }
 
+.menu-i-hov:hover {
+  background-color: #f1ecec;
+}
+
+.menu-i-hov {
+  padding: 10px 0;
+}
+.navbar-back {
+  background-color: #ffffff;
+  padding: 0 0;
+}
+
+@media (min-width: 768px) {
+  .trading-header {
+    padding-left: 9rem;
+    padding-top: 6rem;
+  }
+}
+
 /* code Footer */
 /* Container */
 .container-content {
@@ -444,7 +471,6 @@ body {
   background-position-x: center;
   background-position-y: center;
   background-size: cover;
- 
 }
 
 .platform-header-1 p {
@@ -504,25 +530,24 @@ body {
   width: 15rem;
 }
 
-.platfom-join-img-1{
+.platfom-join-img-1 {
   background-image: url("images/platform-1.svg");
 }
-.platfom-join-img-2{
+.platfom-join-img-2 {
   background-image: url("images/platform-2.svg");
 }
-.platfom-join-img-3{
+.platfom-join-img-3 {
   background-image: url("images/platform-3.svg");
 }
-.platfom-join-img-4{
+.platfom-join-img-4 {
   background-image: url("images/platform-4.svg");
 }
-.platfom-join-img-5{
+.platfom-join-img-5 {
   background-image: url("images/platform-5.svg");
 }
-.platfom-join-img-6{
+.platfom-join-img-6 {
   background-image: url("images/platform-6.svg");
 }
-
 
 .platform-join-text {
   color: black;
@@ -530,34 +555,32 @@ body {
 
 @media (min-width: 768px) {
   .platform-join-wrapper {
-    transition: all .5s;
+    transition: all 0.5s;
     border: hsla(217, 12%, 71%, 0.301) solid 3px;
   }
 
-  .platform-join-wrapper:hover{
-    border:hsla(217, 12%, 71%, 0.747) solid 3px;
+  .platform-join-wrapper:hover {
+    border: hsla(217, 12%, 71%, 0.747) solid 3px;
   }
 
   .platform-join-wrapper a {
     padding: 3rem 0;
   }
 
-  .market-etoro-platform-header{
-   
+  .market-etoro-platform-header {
     -webkit-clip-path: polygon(0 0, 100% 0%, 100% 77%, 0% 100%);
-  clip-path: polygon(0 0, 100% 0%, 100% 77%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 77%, 0% 100%);
   }
 }
 
-
 /* platform-multi-asset */
 
-.platform-multi-asset{
+.platform-multi-asset {
   /* border: 2px solid blue; */
   min-height: 560px;
 }
 
-.platform-multi-asset-img{
+.platform-multi-asset-img {
   /* background-image: url('images/platform-multiasset.jpg');
   background-position-x: center;
   background-position-y: center;
@@ -565,6 +588,168 @@ body {
   height: 860px; */
 }
 
-.platform-multi-asset-img img{
+.platform-multi-asset-img img {
   /* width: 100%; */
+}
+
+.platform-carrousel {
+  background-color: #3F4653;
+  /* height: 100px; */
+}
+
+.platform-carouse-icon-hover{
+  background-color: #444958;
+  border-bottom: 2px solid #00A5EE;
+  color: #00A5EE;
+}
+
+.b-icon:hover{
+  background-color: #444958 !important;
+  color: #00A5EE !important;
+}
+
+
+
+
+/* ############################## */
+/* code of home etoro */
+
+.home-etoro-header {
+  /* background-image: url("images/header_bg_platform.jpg"); */
+  background-image: url("//marketing.etorostatic.com/cache1/hp/v_242/images/hp_cover_202101/slider_top/slide_1_bg.jpg");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  height: 75vh;
+  overflow: hidden;
+}
+
+.home-etoro-header-cols {
+  padding-top: 15%;
+}
+
+.home-etoro-header-cols-2 {
+  padding-top: 5%;
+}
+
+.nav-tabs > li {
+  flex: 1;
+}
+
+.nav-tabs > li .active {
+  border-bottom: 2px solid #6aac0e !important;
+  color: #6aac0e !important;
+  font-weight: bold;
+}
+
+.home-etoro-header-h3 {
+  /* padding-right: 50px; */
+  width: 75%;
+}
+
+.home-etoro-header-h2 {
+  width: 75% !important;
+}
+
+.home-banner {
+  background-color: #393e54;
+}
+
+@media (min-width: 992px) {
+  .cripto-cards {
+    margin-top: -20% !important;
+  }
+
+ 
+
+}
+
+@media (min-width: 768px) {
+  .home-etoro-header {
+    height: 95vh;
+  }
+
+  
+ 
+}
+
+
+@media (min-width: 576px) {
+
+  .home-etoro-header-h3 {
+    /* padding-right: 50px; */
+    width: 88%;
+  }
+  
+  .home-etoro-header-h2 {
+    width: 88% !important;
+  }
+
+
+}
+
+@media (max-height: 702px) {
+  
+
+  .home-etoro-header-cols {
+    /* align-self: flex-start !important; */
+    padding-top: 10%;
+    width: 100% !important;
+  }
+
+  .home-etoro-header-h3 {
+    /* padding-right: 50px; */
+    width: 72%;
+  }
+  
+  .home-etoro-header-h2 {
+    width: 72% !important;
+  }
+
+
+  .home-etoro-header-h2 {
+  }
+}
+
+@media (max-height: 585px) {
+ 
+
+  .home-etoro-header-cols {
+    /* align-self: flex-start !important; */
+    padding-top: 0%;
+    width: 100% !important;
+  }
+
+  .home-etoro-header-h3 {
+    /* padding-right: 50px; */
+    /* width: 88%; */
+    /* font-size: 1.5rem !important; */
+  }
+  
+  .home-etoro-header-h2 {
+    /* width: 88% !important; */
+    /* font-size: 2rem; */
+  }
+
+}
+
+@media (max-height: 420px) {
+  
+  .home-etoro-header-cols {
+    /* align-self: flex-start !important; */
+    padding-top: 0%;
+    width: 100% !important;
+  }
+
+  .home-etoro-header-h3 {
+    /* padding-right: 50px; */
+    /* width: 88%; */
+    font-size: 1.5rem !important;
+  }
+  
+  .home-etoro-header-h2 {
+    /* width: 88% !important; */
+    font-size: 2rem;
+  }
+
 }
