@@ -716,6 +716,10 @@ body {
   background-color: #393e54;
 }
 
+#home-global-leader img{
+  width: 100px;
+}
+
 @media (min-width: 992px) {
   .cripto-cards {
     margin-top: -20% !important;
@@ -736,6 +740,10 @@ body {
 
   .home-etoro-header-h2 {
     width: 88% !important;
+  }
+
+  #home-global-leader img{
+    width: 150px;
   }
 }
 
