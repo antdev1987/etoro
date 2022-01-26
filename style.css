@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 /* Font */
 
 /* Reset */
@@ -66,7 +66,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: #f5f5f5;
 }
 
@@ -197,7 +197,7 @@ body {
 }
 
 .lineA::after {
-  content: '';
+  content: "";
   position: absolute;
   border: 1px solid #eaeaea;
   width: 2rem;
@@ -413,7 +413,7 @@ body {
 }
 
 .get-to-know {
-  background-image: url('../img/banner-bottom.jpg');
+  background-image: url("../img/banner-bottom.jpg");
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -531,7 +531,7 @@ body {
 /* platform header */
 .market-etoro-platform-header {
   min-height: 700px;
-  background-image: url('images/header_bg_platform.jpg');
+  background-image: url("images/header_bg_platform.jpg");
   background-position-x: center;
   background-position-y: center;
   background-size: cover;
@@ -595,22 +595,22 @@ body {
 }
 
 .platfom-join-img-1 {
-  background-image: url('images/platform-1.svg');
+  background-image: url("images/platform-1.svg");
 }
 .platfom-join-img-2 {
-  background-image: url('images/platform-2.svg');
+  background-image: url("images/platform-2.svg");
 }
 .platfom-join-img-3 {
-  background-image: url('images/platform-3.svg');
+  background-image: url("images/platform-3.svg");
 }
 .platfom-join-img-4 {
-  background-image: url('images/platform-4.svg');
+  background-image: url("images/platform-4.svg");
 }
 .platfom-join-img-5 {
-  background-image: url('images/platform-5.svg');
+  background-image: url("images/platform-5.svg");
 }
 .platfom-join-img-6 {
-  background-image: url('images/platform-6.svg');
+  background-image: url("images/platform-6.svg");
 }
 
 .platform-join-text {
@@ -677,7 +677,7 @@ body {
 
 .home-etoro-header {
   /* background-image: url("images/header_bg_platform.jpg"); */
-  background-image: url('//marketing.etorostatic.com/cache1/hp/v_242/images/hp_cover_202101/slider_top/slide_1_bg.jpg');
+  background-image: url("//marketing.etorostatic.com/cache1/hp/v_242/images/hp_cover_202101/slider_top/slide_1_bg.jpg");
   background-position-x: center;
   background-position-y: center;
   background-size: cover;
@@ -849,3 +849,49 @@ body {
   font-size: 3.85em;
 }
 /* Discover Section */
+
+/* slider */
+.slider .boxA {
+  height: 300px;
+}
+
+.slider .boxA .body {
+  margin: 0 20px;
+  padding: 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 0 1.2rem black;
+  border-radius: 1rem;
+}
+
+.slider .boxA .body > p {
+  margin-bottom: auto;
+}
+
+.slider .boxA .body > div {
+  display: flex;
+  gap: 1rem;
+  height: 50px;
+}
+
+.slider .boxA .body div p {
+  margin: 0;
+}
+
+.slider .boxA .body > div > img {
+  height: 50px;
+  width: 50px;
+}
+
+.slider .boxA .body ul {
+  list-style: none;
+  padding: 0;
+}
+
+.slider .boxA .body > div i {
+  color: rgb(209, 209, 74);
+  font-size: 2rem;
+}
+/* Slider */
