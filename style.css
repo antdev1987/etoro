@@ -97,6 +97,10 @@ body {
   font-weight: 700;
 }
 
+.px-1A {
+  padding: 0 5px;
+}
+
 .pY-3 {
   padding: 3rem 0;
 }
