@@ -449,6 +449,12 @@ body {
   font-weight: 300;
 }
 
+
+/* Margin */
+.mt-10 {
+  margin-top: 10rem;
+}
+
 /* Font Sizes */
 .fs-9 {
   font-size: 0.9rem;
@@ -1000,6 +1006,12 @@ body {
   justify-content: space-between;
   box-shadow: 0 0 1.2rem black;
   border-radius: 1rem;
+  transition: all 300ms;
+}
+
+.slider .boxA .body:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 .5rem black;
 }
 
 .slider .boxA .body > p {
@@ -1031,3 +1043,7 @@ body {
   font-size: 2rem;
 }
 /* Slider */
+
+.carousel-control-prev, .carousel-control-next {
+  display: none;
+}
